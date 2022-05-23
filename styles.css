@@ -1,0 +1,24 @@
+body{
+	min-height: 100vh;
+	max-width: 100vw;
+	overflow: hidden;
+}
+
+div{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#logo-container svg {
+  width: 500px;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #logo-container svg {
+    width: 150px;
+    height: auto;
+  }  
+}
